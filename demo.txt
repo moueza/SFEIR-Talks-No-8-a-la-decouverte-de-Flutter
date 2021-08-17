@@ -1,17 +1,12 @@
 import 'package:flutter/material.dart';
 
 void main() async {
-  runApp(
-   Decouverte()
-  );
+  runApp(Decouverte());
 }
 
 class Decouverte extends StatelessWidget {
-    @override
+  @override
   Widget build(BuildContext context) {
-    return GestureDetector(
-       );
+    return Text('hello');
   }
-   
- 
 }
