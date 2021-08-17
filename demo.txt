@@ -7,6 +7,11 @@ void main() async {
 class Decouverte extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Text('hello');
+    //return Text('hello');
+    return MaterialApp(
+      home: Scaffold(
+        body: SafeArea(child: Text('Hello')),
+      ), //Scaffold
+    ); //MaterialApp
   }
 }
